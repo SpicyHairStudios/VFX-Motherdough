@@ -1,0 +1,30 @@
+VFX Motherdough - Blender VFX Folder Creation Automation
+Streamline your VFX workflow with one click!
+
+VFX Motherdough is a powerful Python script for Blender that automates the process of creating a standardized folder structure for your VFX projects. Say goodbye to manual folder setup and focus on what matters most—your creative work.
+
+Features
+Effortless Setup: Generate project folders instantly with a single click.
+Customization: Tailor folder names and descriptions to fit your project requirements.
+Documentation Included: Optionally include a description.txt file in each folder for clear project documentation.
+User-Friendly: Easy-to-use script with simple instructions for both beginners and experienced users.
+How to Use
+Open Blender and switch to the Text Editor workspace.
+Load the script (create_folders.py) and customize the base directory and folder names if needed.
+Run VFX Motherdough with a click of a button to create your project folders instantly.
+Why VFX Motherdough?
+Time-Saving: Cut down project setup time, allowing you to focus on creative work.
+Adaptable: Customize VFX Motherdough to fit your project's unique structure and naming conventions.
+Enhanced Organization: Promote consistency across projects with a standardized folder hierarchy.
+Get Started
+Download VFX Motherdough now and experience a new level of efficiency in your VFX workflow. It's free!
+
+Download Now | Documentation
+
+Note: VFX Motherdough is compatible with Blender [version]. Check for updates for the latest features and improvements.
+
+Contributing
+Contributions are welcome! If you have ideas for improvements or new features, feel free to submit issues or pull requests.
+
+License
+This project is licensed under the MIT License.
