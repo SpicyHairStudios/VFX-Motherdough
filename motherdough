@@ -1,0 +1,38 @@
+import bpy
+import os
+
+# Specify the base directory where you want to create folders
+base_directory = "C:\\path\\to\\client\\project\\shotname"
+
+# List of folder names and descriptions
+folder_data = [
+    ("01_footage", "Live-action footage files"),
+    ("02_tracking", "Blender tracking data and solves"),
+    ("03_cg_elements", "CG elements (e.g., snow) files"),
+    ("04_render_layers", "Render layers output"),
+    ("05_compositing", "Blender compositing files"),
+    ("06_color_correction", "Color correction files"),
+    ("07_final_output", "Final rendered output"),
+    ("08_test_renders", "Test renders for review"),
+    ("09_feedback", "Feedback and notes"),
+    ("10_backups", "Project backup files"),
+]
+
+def create_folders():
+    for folder_name, folder_description in folder_data:
+        folder_path = os.path.join(base_directory, folder_name)
+
+        # Check if the folder already exists
+        if not os.path.exists(folder_path):
+            # Create the folder
+            os.makedirs(folder_path)
+            print(f"Created folder: {folder_path}")
+
+            # Optionally, you can create a text file with the folder description
+            with open(os.path.join(folder_path, "description.txt"), 'w') as desc_file:
+                desc_file.write(folder_description)
+        else:
+            print(f"Folder already exists: {folder_path}")
+
+if __name__ == "__main__":
+    create_folders()
